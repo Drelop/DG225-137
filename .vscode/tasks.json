@@ -1,0 +1,17 @@
+﻿{
+    "version":  "2.0.0",
+    "tasks":  [
+                  {
+                      "label":  "build-MyNewGame",
+                      "problemMatcher":  "$msCompile",
+                      "command":  "dotnet",
+                      "args":  [
+                                   "build",
+                                   "${workspaceFolder}/src/MyNewGame/MyNewGame.csproj",
+                                   "/property:GenerateFullPaths=true",
+                                   "/consoleloggerparameters:NoSummary;ForceNoAlign"
+                               ],
+                      "type":  "process"
+                  }
+              ]
+}

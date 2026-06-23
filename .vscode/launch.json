@@ -1,0 +1,12 @@
+﻿{
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "projectPath":  "${workspaceFolder}/src/MyNewGame/MyNewGame.csproj",
+                               "request":  "launch",
+                               "name":  "Play MyNewGame (Debug)",
+                               "type":  "dotnet",
+                               "preLaunchTask":  "build-MyNewGame"
+                           }
+                       ]
+}
